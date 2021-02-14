@@ -1,6 +1,6 @@
-#include <Watchy.h>
+#include "TypoStyle.h"
 
-Watchy watchy;
+TypoStyle watchy;
 
 void setup(){
   watchy.init();
