@@ -46,7 +46,7 @@ void TypoStyle::drawWatchFace() { //override this method to customize how the wa
 	int day1 = currentTime.Day/10;
 	int day2 = currentTime.Day%10;
 	int year = currentTime.Year;
-	int weekday = dateTime.dayofWeek-1;
+	int weekday = currentTime.Wday;
 	int year1,year2,year3,year4;
 
 	year4 = year % 10; year /= 10;
